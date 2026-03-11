@@ -1,0 +1,25 @@
+{% extends "main.html" %}
+
+{% block main %}
+    <table>
+        {% for i in AllTutorSeshData %}
+            <tr>
+                <div class="TutorSessionBox">
+                    <td>
+                        <h3>Session Time</h3>
+                        <p>{{ i.Ses_time }}</p>
+                    </td>
+                    <td>
+                        <h3>Session Booked</h3>
+                        {% if i.Ses_full %}
+                        <p>Yes, Full</p>
+                        {% else %}
+                        <p>No, Bookable</p>
+                        {% endif %}
+                    </td>
+                </div>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

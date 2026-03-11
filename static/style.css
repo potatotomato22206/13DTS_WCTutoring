@@ -1,0 +1,39 @@
+
+.main_f_table {
+    width: 80%;
+    height: 400px;
+    vertical-align: top;
+}
+
+.left_p_table {
+    background-color: cadetblue;
+    width: 20%;
+    min-width: 320px;
+    height: 800px;
+}
+
+.body {
+    background-color: bisque;
+}
+
+
+.heading {
+    height: 20%;
+    min-height: 80px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.left_panel {
+    position: left;
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.main_fillable {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}

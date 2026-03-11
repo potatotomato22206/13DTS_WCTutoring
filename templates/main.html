@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WC TUTORING</title>
+    <link rel="stylesheet" href='/static/style.css'>
+</head>
+<body>
+    <div class="heading">
+        <h1 style="align-content: center">WC TUTORING</h1>
+    </div>
+    <table>
+        <tr>
+            <td class="left_p_table">
+                <div class="left_panel">
+                    <h3>LEFT PANEL</h3>
+                </div>
+            </td>
+            <td class="main_f_table">
+                <div class="main_fillable">
+                    <p>main stuff</p>
+                    {% block main %}
+
+                    {% endblock %}
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</body>
+</html>
