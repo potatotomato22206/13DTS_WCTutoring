@@ -18,6 +18,9 @@ def homepage():  # put application's code here
     print(output)
     return render_template('homepage.html', AllTutorSeshData=output)
 
+@app.route('/session/<session_number>'):
+
+
 
 if __name__ == '__main__':
     app.run()

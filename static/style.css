@@ -1,3 +1,23 @@
+.h3 {
+
+}
+
+.Info_Box {
+    width: 25%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.TutorSessionBox {
+    background-color: darkslategrey;
+}
+
+.TutorSessionTable {
+    overflow-y: auto;
+    max-height: 400px;
+    width: 80%;
+    background-color: black;
+}
 
 .main_f_table {
     width: 80%;
@@ -25,7 +45,6 @@
 }
 
 .left_panel {
-    position: left;
     width: 100%;
     height: 100%;
     background-color: aquamarine;
