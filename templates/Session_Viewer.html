@@ -1,0 +1,33 @@
+{%  extends "main.html" %}
+
+{% block main %}
+    <div>
+        this is a div
+        <table class="TutorSessionTable">
+            <tr>
+                <td class="TutorSessionBox">
+                    <h2>Session Time</h2>
+                </td>
+                <td class="TutorSessionBox">
+                    <h3>{{ FAH_output[0]['Ses_time'] }}</h3>
+                </td>
+            </tr>
+            <tr>
+                <td class="TutorSessionBox">
+                    <h2>Tutor</h2>
+                </td>
+                <td class="TutorSessionBox">
+
+                </td>
+            </tr>
+            <tr>
+                <td class="TutorSessionBox">
+                    <h2>Tutee</h2>
+                </td>
+                <td class="TutorSessionBox">
+
+                </td>
+            </tr>
+        </table>
+    </div>
+{% endblock %}
